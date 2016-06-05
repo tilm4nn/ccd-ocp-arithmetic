@@ -1,0 +1,16 @@
+CCD Training - Open Closed Principle - Arithmetic Parser
+
+This project contains a parser for arithmetic expressions, that can be evaluated.
+
+The classes LexicalAnalyzer and ArithmethicParser are used for parsing.
+The resulting classes Term, Operator and Variable for evaluation.
+The classes in the ui package provide a ui that can be used for manual tests.
+
+Adding an additional operator type does not work out of the box with clean code
+because the effects of operators are hardcoded in switch statements all over
+the code.
+
+Goal:
+Refactor the Operator class using the strategy design pattern to be abstract with
+implementations so that adding a new operator simply involves creating a new 
+implementation and registering it.
