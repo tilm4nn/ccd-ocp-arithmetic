@@ -79,7 +79,7 @@ public class ArithmeticParserFrame extends JFrame {
         southPanel.setLayout(gridLayout2);
         gridLayout2.setRows(2);
         gridLayout2.setColumns(1);
-        btnClear.setText("Zurücksetzen");
+        btnClear.setText("ZurÃ¼cksetzen");
         btnClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 btnClear_actionPerformed(e);
@@ -103,7 +103,7 @@ public class ArithmeticParserFrame extends JFrame {
 
         initData ();
     }
-    /**Überschrieben, so dass eine Beendigung beim Schließen des Fensters möglich ist.*/
+    /** Ãœberschrieben, so dass eine Beendigung beim SchlieÃŸen des Fensters mÃ¶glich ist.*/
     protected void processWindowEvent(WindowEvent e) {
         super.processWindowEvent(e);
         if (e.getID() == WindowEvent.WINDOW_CLOSING) {

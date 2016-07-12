@@ -1,7 +1,7 @@
 package net.objectzoo.ccd.ocp;
 
 /**
- * Überschrift:   DSA-Manager
+ * Ãœberschrift:   DSA-Manager
  * Beschreibung:  dsaman-Projekt auf www.sourceforge.net
  * Copyright:     Copyright (c) 2002
  */

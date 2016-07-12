@@ -1,11 +1,9 @@
 package net.objectzoo.ccd.ocp;
 
 /**
- * Überschrift: DSA-Manager Beschreibung: dsaman-Projekt auf www.sourceforge.net Copyright:
- * Copyright (c) 2002 Organisation:
- *
- * @author Ingbert Jüdt
- * @version 0.1
+ * Ãœberschrift:   DSA-Manager
+ * Beschreibung:  dsaman-Projekt auf www.sourceforge.net
+ * Copyright:     Copyright (c) 2002
  */
 
 import java.util.ArrayList;
